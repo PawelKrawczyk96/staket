@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="515" height="411" viewBox="0 0 515 411">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #f63;
+        stroke-linejoin: round;
+        stroke-width: 1px;
+        filter: url(#inner-shadow-1);
+      }
+
+      .cls-2, .cls-3 {
+        fill: #1d1d1d;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+    </style>
+
+    <filter id="inner-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" in="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3.162" result="innerShadowBlur"/>
+      <feFlood/>
+      <feComposite operator="out" in2="innerShadowBlur"/>
+      <feComposite operator="in" in2="SourceAlpha"/>
+      <feBlend in2="SourceGraphic" result="innerShadow"/>
+    </filter>
+  </defs>
+  <g style="fill: ; filter: url(#inner-shadow-1)">
+    <g id="g-1" style="stroke: inherit; filter: none; fill: inherit" class="cls-1"/>
+  </g>
+  <use xlink:href="#g-1" style="stroke: #f63; filter: none; fill: none"/>
+  <path d="M70.000,-0.000 L484.000,-0.000 C500.568,-0.000 514.000,13.431 514.000,30.000 L514.000,41.000 L40.000,41.000 L40.000,30.000 C40.000,13.431 53.431,-0.000 70.000,-0.000 Z" class="cls-2"/>
+  <rect x="0.5" y="40.5" width="474" height="41" class="cls-3"/>
+  <rect x="0.5" y="120.5" width="474" height="41" class="cls-3"/>
+  <rect x="40.5" y="160.5" width="474" height="41" class="cls-3"/>
+  <rect x="40.5" y="240.5" width="474" height="41" class="cls-3"/>
+  <rect x="0.5" y="280.5" width="474" height="41" class="cls-3"/>
+  <path d="M-0.000,361.000 L474.000,361.000 L474.000,380.000 C474.000,396.568 460.568,410.000 444.000,410.000 L30.000,410.000 C13.431,410.000 -0.000,396.568 -0.000,380.000 L-0.000,361.000 Z" class="cls-2"/>
+</svg>

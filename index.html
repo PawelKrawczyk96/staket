@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Staket - Systemy Ogrodzeniowe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main-style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class='container-loader'>
+        <div class='loader'>
+            <div class='loader--dot'></div>
+            <div class='loader--dot'></div>
+            <div class='loader--dot'></div>
+            <div class='loader--dot'></div>
+            <div class='loader--dot'></div>
+            <div class='loader--dot'></div>
+            <div class='loader--text'></div>
+        </div>
+    </div>
+    <nav class="nav-menu">
+        <div class="container space-between">
+            <div class="navbar-brand"> <a href="index.html"><img src="images/logo.png" alt="logo staket"></a></div>
+            <ol class="navbar-nav" id="menu-mobile">
+                <li class="nav-item"><a href="index.html" class="nav-link">Start</a></li>
+                <li class="nav-item"><a href="o_firmie.html" class="nav-link">O firmie</a></li>
+                <li class="nav-item"><a href="oferta.html" class="nav-link">Oferta</a></li>
+                <li class="nav-item"><a href="galeria.html" class="nav-link">Galeria</a></li>
+                <li class="nav-item"><a href="#" class="nav-link" onclick="move('.footer')">Kontakt</a></li>
+            </ol>
+            <div class="nav-mobile"><img src="images/mobile_menu_icon_open.svg" alt="" id="btn-mobile"></div>
+            <div class="media-icons">
+                <a href="#" class="icon-social"><img src="images/facebook.png" alt="facebook"></a>
+                <a href="#" class="icon-social"><img src="images/instagram.png" alt="instagram"></a>
+                <a href="#" class="icon-social"><img src="images/youtube.png" alt="youtube"></a>
+            </div>
+        </div>
+    </nav>
+    <div class="slider">
+        <div class="slide active">
+            <div class="slide-text">
+                <p>Naszą domeną<br> jest <br><span class="text-primary">jakość</span></p>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide-text">
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide-text">
+            </div>
+        </div>
+    </div>
+    <div id="next"><img src="images/strzalka_prawo.png" alt="strzałka w prawo"></div>
+    <div id="prev"><img src="images/strzalka_lewo.png" alt="strzałka w lewo"></div>
+    <div class="content-background">
+        <div class="mask">
+            <section class="main-content container">
+                <div class="content-img"><img class="alpha alpha-target" src="images/zdjecie-opis.png" alt=""></div>
+                <div class="content-text">
+                    <div class="text">
+                        <h1 class="text-primary">Opis firmy</h1>
+                        <p>
+                            W 2018 roku firma Edi-Met,która od 25 lat wytwarza, opracowuje i wdraża różnorodne systemy montażu ogrodzeń utworzyła
+                            markę
+                            STAKET aby pod tym brandem oferować kompletne systemy ogrodzeniowe.
+                        </p>
+                        <p class="no-padding"> 
+                            w naszej ofercie znajdą Państwo ogrodzenia aluminiowe, stalowe, drewniane,
+                            gabionowe, panelowe, łupane, bramy, furtki i wiele innych.
+                        </p>
+
+                        <p>
+                            Poza ofertą systemów ogrodzeniowych znajdą Państwo u Nas również wszelkie niezbędne akcesoria
+                            ogrodzeniowe,
+                            usługę montażu, architekturę ogrodu, balustrady i galanterię betonową. 
+                        </p> 
+                        <p>
+                            Mamy w ofercie gotowe
+                            projekty,
+                            jak również wychodzimy naprzeciw oczekiwaniom Klientów którzy chcą zrealizować swoje pomysły.
+                        </p>
+                    </div>
+                    <a href="o_firmie.html" class="btn">Więcej...</a>
+                </div>
+                <div class="content-text">
+                    <h1 class="text-primary">Opis Oferty</h1>
+                    <p>
+                        Głównym przedmiotem działalności firmy STAKET jest produkcja i dystrybucja ogrodzeń oraz
+                        nowoczesne formy aranżacji ogrodu.
+                        Jesteśmy młodym, dynamicznie działającym zespołem, wyróżnia nas indywidualne podejście do
+                        każdego klienta.
+                    </p>
+                    <p>
+                        Oferujemy wszystko, co potrzebne do stworzenia nowoczesnego i funkcjonalnego ogrodzenia. Nasze
+                        produkty dostępne są w wielu kolorach oraz wzorach.
+                        Gwarantujemy najwyższą jakoś zarówno oferowanych produktów, jak i usług montażowych
+                    </p>
+                    <a href="oferta.html" class="btn">Więcej...</a>
+                </div>
+                <div class="content-img"><img class="alpha alpha-target" src="images/zdjecie-opisoferty.png" alt=""></div>
+            </section>
+            <div class="line"></div>
+            <section class="container">
+                <h1 class="text-center">Co wyróznia nas jako firmę?</h1>
+                <div class="advantages">
+                    <div class="advantages-item">
+                        <img src="images/wysoka-jakosc-materialow.png" alt="wysoka jakosc">
+                        <h2>Wysoka jakość materiałów</h2>
+                    </div>
+                    <div class="advantages-item">
+                        <img src="images/profesjonalny-montaz.png" alt="profesjonalny montaz">
+                        <h2>Profesjonalny montaż</h2>
+                    </div>
+                    <div class="advantages-item">
+                        <img src="images/przystepna-cena.png" alt="przystępna cena">
+                        <h2>Przystępna cena</h2>
+                    </div>
+                    <div class="advantages-item">
+                        <img src="images/szybki-czas-wykonania.png" alt="szybki czas wykonania">
+                        <h2>Szybki czas wykonania</h2>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="offer-invite">
+            <h2 class="text-center">Zapraszamy do zapoznania sie z naszą ofertą poniżej</h2>
+        </div>
+        <div class="offer-mask">
+            <section class="offer">
+                <div class="border">
+                    <a href="oferta.html" class="btn-animate">Beton Architektoniczny
+                        <span class="border-top"></span>
+                        <span class="border-bottom"></span>
+                        <span class="border-right"></span>
+                        <span class="border-left"></span>
+                    </a>
+                </div>
+                <div class="border">
+                    <a href="oferta.html" class="btn-animate">
+                        Ogrodzenia
+                        <span class="border-top"></span>
+                        <span class="border-bottom"></span>
+                        <span class="border-right"></span>
+                        <span class="border-left"></span>
+                    </a>
+                </div>
+                <div class="border">
+                    <a href="oferta.html#ogrod" class="btn-animate">
+                        Mała Architektura Ogrodu
+                        <span class="border-top"></span>
+                        <span class="border-bottom"></span>
+                        <span class="border-right"></span>
+                        <span class="border-left"></span>
+                    </a>
+                </div>
+            </section>
+
+
+            <div class="portfolio-more">
+                <p class="text-center">Obejrzyj nasze realizacje</p>
+                <div><img src="images/strzalki.png" alt="zobacz więcej"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="see-more">
+        <div class="mask-more">
+            <div class="mask"></div>
+            <a href="galeria.html" class="btn-more">Przejdź dalej</a>
+            <img src="images/dom.jpg" alt="dom">
+            <img src="images/ogrodzenie.jpg" alt="ogrodzenie">
+            <img src="images/ogrodzenie1.jpg" alt="ogrodzenie">
+            <img src="images/budynekpomaranczowy.jpg" alt="budynek">
+        </div>
+    </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="staket">
+            </div>
+            <div class="info">
+                <h2 class="text-primary">Biuro główne</h2>
+                <p>Ul. Świętego Floriana 40, Olszowice</p>
+                <p>32-040 Polska</p>
+                <p>biuro@staket.pl</p>
+                <p>tel: 604-117-100</p>
+                <p>Otwarte pn-pt 9-17</p>
+                <p>Otwarte sobota 9-15</p>
+            </div>
+            <nav class="menu">
+                <h2 class="text-primary">Nawigacja</h2>
+                <ul>
+                    <li><a href="index.html">Start</a></li>
+                    <li><a href="o_firmie.html">O firmie</a></li>
+                    <li><a href="oferta.html">Oferta</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </footer>
+
+
+
+    <script src="js/slider.js"></script>
+    <script src="js/menu-slider.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/text-animations.js"></script>
+    
+</body>
+
+</html>

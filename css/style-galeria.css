@@ -1,0 +1,90 @@
+@import url("style.css");
+/* Utility classes */
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+/* End of utility classes */
+
+.galery {
+  padding-top: 75px;
+  background-image: url(../images/molo-tlo.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.galery .mask {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  padding: 5px 0 40px 0;
+}
+
+.on_work {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.on_work img {
+  height: auto;
+  max-width: 40%;
+  padding: 50px 0;
+}
+
+.galery-header {
+  margin: 25px 0 15px 0;
+  font-size: 1.8rem;
+  color: var(--light);
+}
+
+.galery-items {
+  display: grid;
+  grid-gap: 35px;
+  grid-template-columns: 1fr;
+}
+
+.header-text a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.header-text a:hover {
+  color: #6a73f1;
+}
+
+.header-text img {
+  width: 25px;
+  padding: 0 10px;
+}
+
+.galery-item {
+  height: 300px;
+  opacity: 0.5;
+  max-width: 100%;
+  background-color: red;
+}
+
+@media (min-width: 1000px) {
+  .galery-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 35px;
+  }
+}
+
+@media (max-width: 488px) {
+  .header-text {
+    font-size: 1rem;
+  }
+}

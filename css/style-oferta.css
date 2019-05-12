@@ -1,0 +1,85 @@
+@import url("style.css");
+/* Utility classes */
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+/* End of utility classes */
+
+.background {
+  background-image: url(../images/molo-tlo.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.start-img {
+  height: 400px;
+  background-image: url(../images/slider1.jpg);
+  background-position: center;
+  background-size: cover;
+  border-bottom: 2px solid #ff712f;
+}
+
+.background .background-mask {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.header-text {
+  padding: 80px 0 0 0;
+  display: flex;
+}
+
+.header-text a {
+  color: var(--primary);
+  text-decoration: none;
+  margin: 0;
+}
+
+.header-text a:hover {
+  color: #6a73f1;
+}
+
+.header-text img {
+  padding: 0 10px;
+  width: 25px;
+}
+
+.description {
+  text-align: left;
+  padding: 30px 0;
+}
+
+.description h1 {
+  padding: 0 0 15px 0;
+}
+
+.description p {
+  padding: 25px 0;
+}
+
+.pattern {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.pattern img {
+  height: auto;
+  max-width: 100%;
+}
+
+@media (max-width: 488px) {
+  .header-text {
+    font-size: 1rem;
+  }
+}
