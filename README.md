@@ -6,4 +6,5 @@
   -CSS3 <br>
   -JavaScript ES6 <br>
   
+  ## strona dostępna przez link https://pawelkrawczyk96.github.io/staket/. lub www.staket.pl
 
