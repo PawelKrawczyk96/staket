@@ -2,8 +2,8 @@
 
 ## Wykorzystane technologie
 
-  -HTML5
-  -CSS3
-  -JavaScript ES6
+  -HTML5 <br>
+  -CSS3 <br>
+  -JavaScript ES6 <br>
   
 
